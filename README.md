@@ -112,13 +112,6 @@ The system includes comprehensive error handling and logging:
 - Feature extraction monitoring
 - Verification process logging
 
-## Contributing
-
-Contributions are welcome! Please read our contributing guidelines before submitting pull requests.
-
-## License
-
-[Specify your license here]
 
 ## Acknowledgments
 
@@ -126,6 +119,3 @@ Contributions are welcome! Please read our contributing guidelines before submit
 - PyTorch team for the deep learning framework
 - VoxCeleb dataset for model training
 
-## Contact
-
-[Your contact information]
