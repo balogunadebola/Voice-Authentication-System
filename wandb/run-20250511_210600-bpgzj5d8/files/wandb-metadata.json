@@ -1,0 +1,36 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2025-05-11T20:06:03.813913",
+    "startedAt": "2025-05-11T20:06:00.825759",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\Akorede Balogun\\Voice Auth System\\DeepfakeDetection\\train.py",
+    "codePath": "DeepfakeDetection\\train.py",
+    "host": "DESKTOP-207U9NU",
+    "username": "Akorede Balogun",
+    "executable": "C:\\Users\\Akorede Balogun\\Voice Auth System\\venv\\Scripts\\python.exe",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 600.0,
+        "min": 0.0,
+        "max": 2000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 600.0,
+            "min": 0.0,
+            "max": 2000.0
+        }
+    ],
+    "disk": {
+        "total": 930.5195274353027,
+        "used": 99.96065902709961
+    },
+    "memory": {
+        "total": 3.9205284118652344
+    }
+}

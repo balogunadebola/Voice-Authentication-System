@@ -1,0 +1,1374 @@
+2025-05-11 21:06:01,186 INFO    StreamThr :720 [internal.py:wandb_internal():86] W&B internal server running at pid: 720, started at: 2025-05-11 21:06:01.183025
+2025-05-11 21:06:01,189 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status
+2025-05-11 21:06:01,291 INFO    WriterThread:720 [datastore.py:open_for_write():85] open: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\run-bpgzj5d8.wandb
+2025-05-11 21:06:01,294 DEBUG   SenderThread:720 [sender.py:send():369] send: header
+2025-05-11 21:06:01,299 DEBUG   SenderThread:720 [sender.py:send():369] send: run
+2025-05-11 21:06:02,529 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: check_version
+2025-05-11 21:06:02,534 INFO    SenderThread:720 [dir_watcher.py:__init__():211] watching files in: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files
+2025-05-11 21:06:02,535 INFO    SenderThread:720 [sender.py:_start_run_threads():1100] run started: bpgzj5d8 with start time 1746993961.257198
+2025-05-11 21:06:02,535 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:06:02,537 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:06:02,539 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: check_version
+2025-05-11 21:06:03,501 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: run_start
+2025-05-11 21:06:03,786 INFO    Thread-16 :720 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:06:03,787 DEBUG   HandlerThread:720 [system_info.py:__init__():31] System info init
+2025-05-11 21:06:03,788 DEBUG   HandlerThread:720 [system_info.py:__init__():46] System info init done
+2025-05-11 21:06:03,789 INFO    HandlerThread:720 [system_monitor.py:start():181] Starting system monitor
+2025-05-11 21:06:03,790 INFO    SystemMonitor:720 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2025-05-11 21:06:03,791 INFO    HandlerThread:720 [system_monitor.py:probe():201] Collecting system info
+2025-05-11 21:06:03,804 INFO    SystemMonitor:720 [interfaces.py:start():190] Started cpu monitoring
+2025-05-11 21:06:03,812 DEBUG   HandlerThread:720 [system_info.py:probe():195] Probing system
+2025-05-11 21:06:03,813 INFO    SystemMonitor:720 [interfaces.py:start():190] Started disk monitoring
+2025-05-11 21:06:03,831 INFO    SystemMonitor:720 [interfaces.py:start():190] Started memory monitoring
+2025-05-11 21:06:03,867 INFO    SystemMonitor:720 [interfaces.py:start():190] Started network monitoring
+2025-05-11 21:06:03,899 DEBUG   HandlerThread:720 [gitlib.py:_init_repo():53] git repository is invalid
+2025-05-11 21:06:03,900 DEBUG   HandlerThread:720 [system_info.py:probe():240] Probing system done
+2025-05-11 21:06:03,900 DEBUG   HandlerThread:720 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19044-SP0', 'python': '3.11.5', 'heartbeatAt': '2025-05-11T20:06:03.813913', 'startedAt': '2025-05-11T20:06:00.825759', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\Akorede Balogun\\Voice Auth System\\DeepfakeDetection\\train.py', 'codePath': 'DeepfakeDetection\\train.py', 'host': 'DESKTOP-207U9NU', 'username': 'Akorede Balogun', 'executable': 'C:\\Users\\Akorede Balogun\\Voice Auth System\\venv\\Scripts\\python.exe', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 600.0, 'min': 0.0, 'max': 2000.0}, 'cpu_freq_per_core': [{'current': 600.0, 'min': 0.0, 'max': 2000.0}], 'disk': {'total': 930.5195274353027, 'used': 99.96065902709961}, 'memory': {'total': 3.9205284118652344}}
+2025-05-11 21:06:03,900 INFO    HandlerThread:720 [system_monitor.py:probe():211] Finished collecting system info
+2025-05-11 21:06:03,901 INFO    HandlerThread:720 [system_monitor.py:probe():214] Publishing system info
+2025-05-11 21:06:03,901 DEBUG   HandlerThread:720 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2025-05-11 21:06:03,955 DEBUG   HandlerThread:720 [system_info.py:_save_pip():67] Saving pip packages done
+2025-05-11 21:06:03,968 INFO    HandlerThread:720 [system_monitor.py:probe():216] Finished publishing system info
+2025-05-11 21:06:04,406 DEBUG   SenderThread:720 [sender.py:send():369] send: files
+2025-05-11 21:06:04,407 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2025-05-11 21:06:04,450 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:06:04,452 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:06:04,790 INFO    Thread-16 :720 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\requirements.txt
+2025-05-11 21:06:04,791 INFO    Thread-16 :720 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-metadata.json
+2025-05-11 21:06:04,804 DEBUG   SenderThread:720 [sender.py:send():369] send: telemetry
+2025-05-11 21:06:05,802 INFO    Thread-16 :720 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:06:06,845 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:06:07,855 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:06:09,904 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:06:11,924 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:06:12,044 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:06:17,093 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:06:19,459 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:06:19,461 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:06:21,521 INFO    wandb-upload_0:720 [upload_job.py:push():133] Uploaded file C:\Users\AKORED~1\AppData\Local\Temp\tmpcfy54uobwandb\77b000jz-wandb-metadata.json
+2025-05-11 21:06:22,147 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:06:23,075 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:06:27,188 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:06:32,236 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:06:33,320 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\config.yaml
+2025-05-11 21:06:34,458 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:06:34,459 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:06:37,868 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:06:42,941 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:06:48,242 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:06:49,472 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:06:49,474 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:06:53,944 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:06:59,002 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:07:03,905 DEBUG   SystemMonitor:720 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2025-05-11 21:07:03,907 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:07:04,484 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:07:04,486 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:07:04,834 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:07:09,883 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:07:14,901 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:07:19,500 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:07:19,502 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:07:20,856 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:07:25,916 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:07:30,972 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:07:33,916 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:07:34,512 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:07:34,513 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:07:36,845 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:07:41,903 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:07:46,965 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:07:49,530 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:07:49,531 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:07:52,916 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:07:57,969 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:08:03,028 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:08:03,928 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:08:04,535 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:08:04,536 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:08:08,927 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:08:14,000 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:08:19,047 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:08:19,548 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:08:19,549 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:08:24,937 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:08:30,988 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:08:33,936 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:08:34,584 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:08:34,585 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:08:36,098 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:08:41,170 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:08:46,232 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:08:49,599 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:08:49,600 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:08:51,931 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:08:56,976 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:09:02,793 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:09:03,807 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:09:04,166 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:09:04,610 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:09:04,613 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:09:05,828 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:09:07,981 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:09:13,852 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:09:14,000 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:09:18,901 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:09:19,604 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:09:19,605 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:09:23,941 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:09:28,994 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:09:34,036 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:09:34,162 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:09:34,612 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:09:34,613 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:09:39,966 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:09:45,029 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:09:49,752 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:09:49,754 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:09:50,041 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:09:55,086 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:10:00,138 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:10:04,171 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:10:04,745 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:10:04,747 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:10:06,018 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:10:11,066 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:10:16,118 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:10:19,806 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:10:19,808 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:10:21,446 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:10:21,553 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:10:22,252 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:10:22,444 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:10:22,530 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:10:22,532 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:10:22,547 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:10:23,577 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:10:23,578 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:10:25,629 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:10:27,201 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:10:32,249 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:10:34,183 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:10:34,839 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:10:34,840 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:10:38,144 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:10:43,198 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:10:48,224 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:10:49,836 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:10:49,836 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:10:54,390 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:10:59,447 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:11:00,167 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:11:01,474 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:11:03,525 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:11:04,185 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:11:04,854 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:11:08,466 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:11:08,627 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:11:14,165 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:11:19,193 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:11:19,875 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:11:19,876 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:11:24,245 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:11:29,005 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:11:29,393 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:11:29,664 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:11:29,903 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:11:29,904 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:11:30,038 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:11:30,041 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:11:31,042 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:11:33,083 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:11:34,200 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:11:34,624 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:11:34,888 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:11:34,889 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:11:40,251 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:11:45,314 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:11:49,352 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:11:49,887 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:11:49,888 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:11:51,314 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:11:56,398 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:11:59,450 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:12:01,464 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:12:01,621 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:12:04,200 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:12:04,894 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:12:04,894 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:12:07,251 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:12:12,320 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:12:12,321 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:12:12,324 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:12:12,325 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:12:12,326 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:12:12,593 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:12:13,599 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:12:14,606 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:12:15,608 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:12:17,416 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:12:19,901 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:12:19,902 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:12:22,601 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:12:27,634 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:12:31,978 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:12:33,218 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:12:35,077 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:12:35,078 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:12:35,082 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:12:38,992 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:12:44,411 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:12:49,457 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:12:49,925 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:12:49,926 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:12:54,545 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:12:59,607 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:13:04,245 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:13:04,692 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:13:04,927 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:13:04,968 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:13:10,298 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:13:15,345 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:13:20,151 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:13:20,152 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:13:32,295 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: keepalive
+2025-05-11 21:13:32,296 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: keepalive
+2025-05-11 21:13:32,682 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:13:34,260 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:13:34,932 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:13:34,933 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:13:35,413 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:13:35,573 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:13:35,574 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:13:35,577 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:13:35,720 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:13:36,761 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:13:38,599 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:13:43,648 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:13:48,755 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:13:50,027 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:13:50,028 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:13:55,377 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:14:00,435 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:14:04,318 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:14:04,962 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:14:04,963 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:14:06,374 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:14:11,417 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:14:16,482 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:14:20,211 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:14:20,256 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:14:21,889 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:14:22,746 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:14:27,227 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:14:28,811 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:14:32,266 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:14:34,272 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:14:35,130 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:14:35,131 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:14:37,587 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:14:42,574 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:14:47,628 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:14:50,150 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:14:50,156 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:14:50,497 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:14:51,028 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:14:51,071 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:14:51,072 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:14:51,076 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:14:51,510 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:14:52,522 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:14:53,093 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:14:58,152 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:15:03,185 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:15:04,282 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:15:05,140 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:15:05,141 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:15:06,877 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:15:08,443 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:15:08,949 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:15:13,505 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:15:18,540 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:15:20,140 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:15:20,187 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:15:24,526 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:15:25,915 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:15:25,924 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:15:25,925 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:15:25,965 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:15:26,280 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:15:27,333 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:15:30,008 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:15:34,290 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:15:35,146 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:15:35,147 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:15:35,427 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:15:40,485 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:15:45,524 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:15:50,155 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:15:50,251 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:15:50,589 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:15:55,646 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:16:00,696 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:16:04,293 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:16:05,158 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:16:05,159 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:16:06,512 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:16:11,569 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:16:16,651 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:16:20,160 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:16:20,161 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:16:22,468 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:16:27,514 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:16:32,552 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:16:34,307 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:16:35,164 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:16:35,165 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:16:37,603 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:16:42,656 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:16:47,702 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:16:50,183 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:16:50,184 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:16:53,510 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:16:58,565 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:17:03,631 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:17:04,311 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:17:05,188 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:17:05,189 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:17:09,554 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:17:14,593 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:17:20,118 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:17:20,405 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:17:20,406 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:17:25,447 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:17:30,726 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:17:34,326 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:17:35,212 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:17:35,212 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:17:36,624 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:17:41,673 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:17:46,722 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:17:50,256 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:17:50,257 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:17:51,632 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:17:51,775 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:17:53,654 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:17:57,176 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:17:57,725 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:18:02,228 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:18:04,334 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:18:05,234 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:18:05,235 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:18:07,577 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:18:12,636 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:18:17,689 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:18:20,241 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:18:20,242 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:18:23,561 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:18:28,601 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:18:32,211 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:18:32,354 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:18:32,355 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:18:32,383 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:18:32,383 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:18:32,384 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:18:34,346 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:18:34,348 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:18:34,394 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:18:35,237 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:18:35,238 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:18:39,609 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:18:44,661 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:18:45,544 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:18:47,592 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:18:50,230 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:18:50,231 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:18:50,581 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:18:55,617 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:19:00,697 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:19:01,785 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:19:01,905 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:19:02,045 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:19:02,047 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:19:02,048 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:19:02,798 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:19:03,822 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:19:04,357 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:19:05,240 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:19:05,294 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:19:06,630 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:19:11,666 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:19:17,443 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:19:17,978 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:19:19,997 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:19:20,243 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:19:20,244 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:19:22,709 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:19:27,758 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:19:33,201 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:19:33,279 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:19:33,281 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:19:33,282 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:19:33,283 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:19:34,164 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:19:34,165 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:19:34,366 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:19:35,253 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:19:35,287 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:19:36,186 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:19:38,633 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:19:43,668 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:19:48,336 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:19:49,006 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:19:50,246 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:19:50,247 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:19:50,343 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:19:54,589 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:19:59,602 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:19:59,625 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:19:59,637 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:19:59,637 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:19:59,639 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:20:00,415 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:20:00,416 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:20:02,442 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:20:04,376 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:20:05,260 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:20:05,261 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:20:05,594 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:20:10,634 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:20:14,544 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:20:16,480 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:20:16,560 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:20:20,275 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:20:20,288 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:20:21,653 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:20:25,274 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:20:25,281 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:20:25,281 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:20:25,282 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:20:25,609 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:20:25,610 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:20:26,622 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:20:27,297 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:20:32,336 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:20:34,471 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:20:35,312 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:20:35,347 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:20:37,642 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:20:39,735 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:20:43,381 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:20:48,416 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:20:50,307 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:20:50,308 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:20:51,474 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:20:51,476 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:20:51,493 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:20:51,528 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:20:51,854 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:20:51,854 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:20:53,546 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:20:53,860 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:20:58,587 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:21:03,643 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:21:04,474 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:21:05,329 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:21:05,330 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:21:05,943 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:21:07,971 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:21:09,549 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:21:14,583 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:21:19,608 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:21:20,342 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:21:20,343 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:21:20,930 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:21:20,933 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:21:20,934 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:21:20,935 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:21:21,076 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:21:22,078 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:21:24,957 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:21:29,991 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:21:34,491 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:21:35,340 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:21:35,358 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:21:35,669 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:21:36,173 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:21:38,193 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:21:40,720 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:21:45,764 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:21:49,578 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:21:49,579 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:21:49,579 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:21:49,580 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:21:50,282 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:21:50,283 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:21:50,359 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:21:50,359 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:21:51,712 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:21:52,298 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:21:56,739 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:22:01,981 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:22:02,366 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:22:04,377 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:22:04,502 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:22:05,366 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:22:05,367 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:22:07,736 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:22:12,763 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:22:14,488 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:22:14,672 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:22:14,693 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:22:14,694 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:22:14,696 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:22:18,462 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:22:18,464 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:22:18,465 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:22:19,466 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:22:20,403 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:22:20,404 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:22:23,713 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:22:28,546 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:22:29,416 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:22:30,574 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:22:34,465 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:22:34,514 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:22:35,411 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:22:35,412 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:22:39,516 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:22:42,292 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:22:42,295 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:22:42,297 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:22:42,299 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:22:42,681 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:22:42,682 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:22:44,703 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:22:45,319 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:22:50,365 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:22:50,411 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:22:50,412 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:22:56,355 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:22:56,811 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:22:58,825 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:23:01,415 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:23:04,532 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:23:05,410 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:23:05,411 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:23:06,742 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:23:11,786 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:23:13,681 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:23:13,684 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:23:13,685 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:23:13,687 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:23:13,945 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:23:14,955 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:23:17,702 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:23:20,423 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:23:20,424 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:23:22,772 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:23:28,025 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:23:29,055 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:23:33,082 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:23:34,547 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:23:35,438 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:23:35,439 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:23:38,815 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:23:44,792 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:23:44,875 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:23:44,878 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:23:44,878 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:23:44,879 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:23:45,186 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:23:45,187 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:23:47,207 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:23:49,961 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:23:50,438 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:23:50,439 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:23:55,807 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:23:59,337 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:24:01,361 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:24:01,592 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:24:04,554 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:24:05,444 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:24:05,445 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:24:06,732 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:24:11,777 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:24:16,994 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:24:17,158 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:24:17,161 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:24:17,161 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:24:17,168 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:24:17,581 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:24:17,582 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:24:18,608 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:24:20,450 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:24:20,451 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:24:22,857 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:24:27,903 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:24:32,860 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:24:32,914 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:24:34,570 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:24:34,884 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:24:35,473 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:24:35,473 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:24:38,766 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:24:43,803 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:24:49,109 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:24:49,133 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:24:49,266 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:24:49,268 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:24:49,269 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:24:49,272 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:24:50,124 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:24:50,464 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:24:50,465 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:24:51,130 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:24:54,807 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:24:59,841 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:25:03,236 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:25:04,572 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:25:05,473 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:25:05,473 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:25:05,838 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:25:10,896 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:25:13,318 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:25:16,392 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:25:20,466 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:25:20,467 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:25:21,780 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:25:26,267 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:25:26,269 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:25:26,270 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:25:26,272 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:25:26,415 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:25:27,280 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:25:27,419 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:25:32,324 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:25:34,580 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:25:35,468 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:25:35,469 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:25:37,828 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:25:42,890 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:25:43,535 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:25:45,564 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:25:47,916 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:25:50,470 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:25:50,471 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:25:52,923 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:25:56,615 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:25:56,617 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:25:56,619 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:25:56,621 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:25:56,649 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:25:57,663 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:25:58,632 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:25:58,665 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:25:59,671 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:26:03,670 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:26:04,595 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:26:05,472 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:26:05,473 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:26:08,831 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:26:12,753 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:26:14,052 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:26:14,768 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:26:19,093 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:26:20,472 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:26:20,472 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:26:24,792 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:26:27,106 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:26:27,167 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:26:27,169 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:26:27,171 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:26:27,172 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:26:28,121 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:26:29,409 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:26:30,407 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:26:34,602 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:26:35,469 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:26:35,470 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:26:35,808 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:26:40,821 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:26:41,597 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:26:43,647 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:26:45,945 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:26:50,474 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:26:50,475 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:26:51,751 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:26:56,810 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:27:02,262 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:27:02,290 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:27:02,293 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:27:02,293 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:27:02,295 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:27:02,993 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:27:02,993 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:27:04,620 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:27:05,029 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:27:05,482 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:27:05,483 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:27:07,872 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:27:12,905 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:27:18,381 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:27:19,263 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:27:20,489 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:27:20,490 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:27:23,815 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:27:28,865 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:27:34,081 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:27:34,115 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:27:34,117 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:27:34,118 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:27:34,119 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:27:34,508 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:27:34,624 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:27:35,501 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:27:35,502 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:27:35,518 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:27:39,800 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:27:44,840 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:27:47,705 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:27:49,743 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:27:50,513 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:27:50,514 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:27:50,852 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:27:55,900 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:28:00,002 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:28:00,004 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:28:00,005 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:28:00,007 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:28:00,899 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:28:00,924 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:28:01,021 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:28:01,905 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:28:04,624 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:28:05,516 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:28:05,517 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:28:06,859 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:28:11,895 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:28:12,999 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:28:15,003 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:28:17,511 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:28:20,523 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:28:20,523 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:28:22,961 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:28:28,912 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:28:28,929 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:28:28,931 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:28:28,932 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:28:28,972 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:28:29,137 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:28:29,138 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:28:31,158 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:28:34,016 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:28:34,629 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:28:35,522 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:28:35,523 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:28:39,843 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:28:43,255 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:28:44,882 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:28:49,933 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:28:50,537 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:28:50,573 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:28:54,604 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:28:54,606 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:28:54,607 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:28:54,609 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:28:55,340 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:28:55,341 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:28:55,620 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:28:57,364 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:29:00,657 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:29:04,648 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:29:05,529 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:29:05,530 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:29:05,931 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:29:11,535 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:29:11,815 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:29:13,553 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:29:16,869 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:29:20,598 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:29:20,598 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:29:21,902 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:29:26,956 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:29:29,027 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:29:29,030 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:29:29,030 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:29:29,032 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:29:29,837 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:29:29,837 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:29:30,858 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:29:31,866 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:29:32,051 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:29:34,673 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:29:35,553 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:29:35,567 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:29:37,930 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:29:43,056 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:29:43,515 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:29:45,090 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:29:48,660 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:29:50,549 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:29:50,550 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:29:53,871 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:29:54,962 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:29:54,976 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:29:54,976 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:29:54,977 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:29:55,259 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:29:55,260 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:29:57,298 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:29:59,018 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:30:04,048 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:30:04,674 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:30:05,580 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:30:05,580 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:30:09,366 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:30:09,500 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:30:14,400 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:30:20,249 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:30:20,327 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:30:20,329 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:30:20,331 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:30:20,334 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:30:20,572 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:30:20,572 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:30:20,775 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:30:21,791 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:30:25,942 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:30:30,964 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:30:33,951 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:30:34,685 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:30:35,583 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:30:35,584 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:30:35,981 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:30:36,930 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:30:41,977 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:30:44,936 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:30:44,938 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:30:44,939 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:30:44,970 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:30:45,121 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:30:45,122 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:30:46,990 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:30:47,148 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:30:50,588 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:30:50,589 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:30:52,961 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:30:58,522 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:30:59,348 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:31:03,568 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:31:04,691 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:31:05,597 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:31:05,598 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:31:08,888 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:31:09,531 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:31:09,850 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:31:09,852 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:31:09,902 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:31:09,904 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:31:10,546 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:31:11,562 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:31:13,938 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:31:18,973 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:31:20,608 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:31:20,609 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:31:23,715 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:31:23,996 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:31:29,036 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:31:34,395 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:31:34,425 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:31:34,429 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:31:34,452 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:31:34,454 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:31:34,706 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:31:34,960 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:31:34,960 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:31:35,614 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:31:35,615 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:31:35,962 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:31:39,995 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:31:45,061 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:31:48,104 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:31:50,125 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:31:50,219 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:31:50,610 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:31:50,611 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:31:56,019 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:32:00,197 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:32:00,199 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:32:00,199 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:32:00,203 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:32:00,300 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:32:01,208 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:32:01,310 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:32:04,709 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:32:05,622 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:32:05,623 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:32:06,940 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:32:11,972 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:32:15,488 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:32:17,720 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:32:20,628 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:32:20,629 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:32:22,964 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:32:27,326 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:32:27,337 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:32:27,338 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:32:27,339 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:32:27,573 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:32:27,574 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:32:28,346 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:32:29,597 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:32:33,393 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:32:34,724 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:32:35,635 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:32:35,636 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:32:38,925 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:32:41,691 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:32:43,706 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:32:43,996 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:32:49,052 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:32:50,649 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:32:50,650 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:32:52,210 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:32:52,213 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:32:52,214 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:32:52,216 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:32:52,789 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:32:53,788 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:32:54,227 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:32:59,269 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:33:04,371 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:33:04,733 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:33:05,653 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:33:05,654 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:33:05,873 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:33:07,883 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:33:10,025 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:33:15,071 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:33:16,818 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:33:16,822 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:33:16,824 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:33:16,825 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:33:16,950 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:33:17,958 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:33:20,658 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:33:20,659 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:33:21,024 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:33:26,073 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:33:31,202 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:33:32,096 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:33:34,125 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:33:34,741 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:33:35,662 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:33:35,663 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:33:36,924 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:33:41,973 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:33:45,338 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:33:45,916 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:33:45,918 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:33:45,918 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:33:45,921 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:33:46,347 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:33:47,349 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:33:47,925 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:33:50,668 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:33:50,687 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:33:53,028 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:33:58,067 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:33:59,580 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:34:01,616 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:34:03,576 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:34:04,754 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:34:05,685 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:34:05,686 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:34:09,080 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:34:14,116 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:34:16,355 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:34:16,358 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:34:16,359 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:34:16,361 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:34:16,860 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:34:17,895 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:34:19,419 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:34:20,686 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:34:20,687 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:34:25,099 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:34:30,146 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:34:32,178 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:34:34,203 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:34:34,760 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:34:35,692 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:34:35,694 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:34:36,083 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:34:41,136 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:34:46,179 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:34:49,543 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:34:49,894 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:34:49,896 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:34:49,897 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:34:49,899 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:34:50,693 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:34:50,694 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:34:50,733 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:34:51,739 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:34:52,004 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:34:57,037 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:35:02,073 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:35:04,809 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:35:05,707 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:35:05,708 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:35:06,244 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:35:07,125 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:35:08,261 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:35:12,171 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:35:17,225 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:35:20,715 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:35:20,716 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:35:22,003 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:35:22,007 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:35:22,008 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:35:22,009 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:35:22,404 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:35:22,405 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:35:23,024 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:35:24,431 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:35:28,064 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:35:33,119 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:35:34,823 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:35:35,743 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:35:35,744 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:35:37,574 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:35:38,853 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:35:39,598 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:35:45,142 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:35:47,661 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:35:50,669 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:35:50,802 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:35:50,803 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:35:55,889 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:36:01,056 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:36:04,831 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:36:05,764 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:36:05,766 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:36:07,038 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:36:12,077 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:36:17,129 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:36:20,777 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:36:20,838 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:36:22,178 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:36:27,229 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:36:32,265 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:36:34,840 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:36:35,790 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:36:35,791 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:36:38,101 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:36:43,144 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:36:48,189 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:36:50,798 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:36:50,799 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:36:54,119 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:36:59,157 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:37:04,210 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:37:04,850 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:37:05,800 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:37:05,801 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:37:10,176 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:37:15,286 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:37:20,342 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:37:20,807 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:37:20,808 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:37:26,246 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:37:31,314 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:37:34,852 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:37:35,816 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:37:35,817 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:37:37,177 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:37:37,893 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:37:38,591 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:37:38,593 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:37:38,595 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:37:38,596 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:37:38,902 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:37:39,913 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:37:42,632 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:37:48,112 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:37:50,810 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:37:50,811 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:37:53,109 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:37:58,165 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:38:03,220 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:38:04,940 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:38:05,878 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:38:05,879 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:38:09,162 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:38:14,297 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:38:16,392 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:38:18,419 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:38:19,435 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:38:20,847 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:38:20,848 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:38:21,580 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:38:25,324 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:38:30,385 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:38:34,871 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:38:35,836 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:38:35,837 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:38:36,130 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:38:41,170 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:38:46,215 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:38:48,970 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:38:48,972 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:38:48,973 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:38:48,979 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:38:49,046 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:38:50,061 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:38:50,860 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:38:50,861 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:38:52,123 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:38:57,182 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:39:02,527 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:39:04,235 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:39:04,884 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:39:05,868 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:39:05,869 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:39:06,298 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:39:08,304 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:39:13,333 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:39:18,375 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:39:20,804 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:39:20,807 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:39:20,807 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:39:20,937 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:39:20,939 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:39:20,940 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:39:21,578 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:39:21,579 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:39:22,588 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:39:24,342 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:39:29,386 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:39:34,662 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:39:34,886 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:39:35,809 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:39:35,890 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:39:35,891 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:39:37,828 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:39:40,197 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:39:45,246 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:39:48,017 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:39:48,621 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:39:48,624 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:39:48,625 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:39:48,626 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:39:49,033 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:39:50,050 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:39:50,647 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:39:50,898 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:39:50,899 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:39:56,259 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:40:01,670 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:40:02,250 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:40:04,279 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:40:04,897 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:40:05,914 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:40:05,914 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:40:07,260 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:40:12,306 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:40:14,442 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:40:14,572 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:40:14,574 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:40:14,662 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:40:14,673 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:40:15,431 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:40:16,437 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:40:17,700 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:40:20,942 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:40:20,942 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:40:23,262 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:40:28,312 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:40:28,542 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:40:30,554 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:40:33,349 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:40:34,910 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:40:35,958 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:40:35,959 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:40:39,324 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:40:40,412 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:40:40,414 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:40:40,415 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:40:40,417 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:40:40,656 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:40:40,657 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:40:41,713 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:40:42,717 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:40:44,482 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:40:49,520 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:40:50,958 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:40:50,959 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:40:55,372 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:40:56,834 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:41:00,532 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:41:04,924 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:41:05,930 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:41:05,969 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:41:05,969 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:41:07,080 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:41:07,083 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:41:07,083 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:41:07,086 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:41:07,908 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:41:07,909 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:41:08,923 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:41:11,110 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:41:16,134 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:41:20,050 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:41:20,966 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: stop_status
+2025-05-11 21:41:20,967 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: stop_status
+2025-05-11 21:41:21,383 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:41:22,087 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:41:26,440 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:41:32,115 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:41:32,157 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:41:32,180 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: partial_history
+2025-05-11 21:41:32,184 DEBUG   SenderThread:720 [sender.py:send():369] send: history
+2025-05-11 21:41:32,185 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: summary_record
+2025-05-11 21:41:32,227 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:41:32,937 DEBUG   SenderThread:720 [sender.py:send():369] send: telemetry
+2025-05-11 21:41:33,176 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:41:34,194 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:41:34,423 DEBUG   SenderThread:720 [sender.py:send():369] send: exit
+2025-05-11 21:41:35,977 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: poll_exit
+2025-05-11 21:41:34,458 INFO    SenderThread:720 [sender.py:send_exit():574] handling exit code: 0
+2025-05-11 21:41:36,298 INFO    SenderThread:720 [sender.py:send_exit():576] handling runtime: 2130
+2025-05-11 21:41:36,505 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:41:36,508 INFO    SenderThread:720 [sender.py:send_exit():582] send defer
+2025-05-11 21:41:36,559 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:41:36,560 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: defer
+2025-05-11 21:41:36,581 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: poll_exit
+2025-05-11 21:41:36,601 INFO    HandlerThread:720 [handler.py:handle_request_defer():170] handle defer: 0
+2025-05-11 21:41:36,678 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: defer
+2025-05-11 21:41:36,678 INFO    SenderThread:720 [sender.py:send_request_defer():598] handle sender defer: 0
+2025-05-11 21:41:36,679 INFO    SenderThread:720 [sender.py:transition_state():602] send defer: 1
+2025-05-11 21:41:36,680 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: defer
+2025-05-11 21:41:36,680 INFO    HandlerThread:720 [handler.py:handle_request_defer():170] handle defer: 1
+2025-05-11 21:41:36,704 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: defer
+2025-05-11 21:41:36,704 INFO    SenderThread:720 [sender.py:send_request_defer():598] handle sender defer: 1
+2025-05-11 21:41:36,706 INFO    SenderThread:720 [sender.py:transition_state():602] send defer: 2
+2025-05-11 21:41:36,706 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: defer
+2025-05-11 21:41:36,707 INFO    HandlerThread:720 [handler.py:handle_request_defer():170] handle defer: 2
+2025-05-11 21:41:36,708 INFO    HandlerThread:720 [system_monitor.py:finish():190] Stopping system monitor
+2025-05-11 21:41:36,764 DEBUG   SystemMonitor:720 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2025-05-11 21:41:36,782 INFO    HandlerThread:720 [interfaces.py:finish():202] Joined cpu monitor
+2025-05-11 21:41:36,782 DEBUG   SystemMonitor:720 [system_monitor.py:_start():170] Publishing last batch of metrics
+2025-05-11 21:41:36,801 INFO    HandlerThread:720 [interfaces.py:finish():202] Joined disk monitor
+2025-05-11 21:41:36,804 INFO    HandlerThread:720 [interfaces.py:finish():202] Joined memory monitor
+2025-05-11 21:41:36,805 INFO    HandlerThread:720 [interfaces.py:finish():202] Joined network monitor
+2025-05-11 21:41:36,828 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: defer
+2025-05-11 21:41:36,828 INFO    SenderThread:720 [sender.py:send_request_defer():598] handle sender defer: 2
+2025-05-11 21:41:36,829 INFO    SenderThread:720 [sender.py:transition_state():602] send defer: 3
+2025-05-11 21:41:36,829 DEBUG   SenderThread:720 [sender.py:send():369] send: stats
+2025-05-11 21:41:36,830 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: defer
+2025-05-11 21:41:36,830 INFO    HandlerThread:720 [handler.py:handle_request_defer():170] handle defer: 3
+2025-05-11 21:41:36,831 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: defer
+2025-05-11 21:41:36,832 INFO    SenderThread:720 [sender.py:send_request_defer():598] handle sender defer: 3
+2025-05-11 21:41:36,832 INFO    SenderThread:720 [sender.py:transition_state():602] send defer: 4
+2025-05-11 21:41:36,832 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: defer
+2025-05-11 21:41:36,833 INFO    HandlerThread:720 [handler.py:handle_request_defer():170] handle defer: 4
+2025-05-11 21:41:36,834 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: defer
+2025-05-11 21:41:36,834 INFO    SenderThread:720 [sender.py:send_request_defer():598] handle sender defer: 4
+2025-05-11 21:41:36,835 INFO    SenderThread:720 [sender.py:transition_state():602] send defer: 5
+2025-05-11 21:41:36,835 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: defer
+2025-05-11 21:41:36,835 INFO    HandlerThread:720 [handler.py:handle_request_defer():170] handle defer: 5
+2025-05-11 21:41:36,837 DEBUG   SenderThread:720 [sender.py:send():369] send: summary
+2025-05-11 21:41:36,839 INFO    SenderThread:720 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-05-11 21:41:36,862 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: defer
+2025-05-11 21:41:36,862 INFO    SenderThread:720 [sender.py:send_request_defer():598] handle sender defer: 5
+2025-05-11 21:41:36,863 INFO    SenderThread:720 [sender.py:transition_state():602] send defer: 6
+2025-05-11 21:41:36,863 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: defer
+2025-05-11 21:41:36,864 INFO    HandlerThread:720 [handler.py:handle_request_defer():170] handle defer: 6
+2025-05-11 21:41:36,865 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: defer
+2025-05-11 21:41:36,865 INFO    SenderThread:720 [sender.py:send_request_defer():598] handle sender defer: 6
+2025-05-11 21:41:36,907 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:41:36,934 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:41:37,122 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: poll_exit
+2025-05-11 21:41:37,871 INFO    SenderThread:720 [sender.py:transition_state():602] send defer: 7
+2025-05-11 21:41:37,872 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: poll_exit
+2025-05-11 21:41:37,872 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: defer
+2025-05-11 21:41:37,874 INFO    HandlerThread:720 [handler.py:handle_request_defer():170] handle defer: 7
+2025-05-11 21:41:37,875 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: defer
+2025-05-11 21:41:37,875 INFO    SenderThread:720 [sender.py:send_request_defer():598] handle sender defer: 7
+2025-05-11 21:41:37,945 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\config.yaml
+2025-05-11 21:41:38,239 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: poll_exit
+2025-05-11 21:41:40,196 INFO    SenderThread:720 [sender.py:transition_state():602] send defer: 8
+2025-05-11 21:41:40,197 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: poll_exit
+2025-05-11 21:41:40,197 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: defer
+2025-05-11 21:41:40,198 INFO    HandlerThread:720 [handler.py:handle_request_defer():170] handle defer: 8
+2025-05-11 21:41:40,199 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: defer
+2025-05-11 21:41:40,199 INFO    SenderThread:720 [sender.py:send_request_defer():598] handle sender defer: 8
+2025-05-11 21:41:40,217 INFO    SenderThread:720 [job_builder.py:build():240] Attempting to build job artifact
+2025-05-11 21:41:40,624 INFO    SenderThread:720 [job_builder.py:build():274] no source found
+2025-05-11 21:41:40,625 INFO    SenderThread:720 [sender.py:transition_state():602] send defer: 9
+2025-05-11 21:41:40,625 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: defer
+2025-05-11 21:41:40,626 INFO    HandlerThread:720 [handler.py:handle_request_defer():170] handle defer: 9
+2025-05-11 21:41:40,627 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: defer
+2025-05-11 21:41:40,627 INFO    SenderThread:720 [sender.py:send_request_defer():598] handle sender defer: 9
+2025-05-11 21:41:40,627 INFO    SenderThread:720 [dir_watcher.py:finish():359] shutting down directory watcher
+2025-05-11 21:41:40,979 INFO    Thread-16 :720 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:41:40,980 INFO    SenderThread:720 [dir_watcher.py:finish():389] scan: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files
+2025-05-11 21:41:41,004 INFO    SenderThread:720 [dir_watcher.py:finish():403] scan save: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\config.yaml config.yaml
+2025-05-11 21:41:41,006 INFO    SenderThread:720 [dir_watcher.py:finish():403] scan save: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log output.log
+2025-05-11 21:41:41,022 INFO    SenderThread:720 [dir_watcher.py:finish():403] scan save: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\requirements.txt requirements.txt
+2025-05-11 21:41:41,023 INFO    SenderThread:720 [dir_watcher.py:finish():403] scan save: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-metadata.json wandb-metadata.json
+2025-05-11 21:41:41,024 INFO    SenderThread:720 [dir_watcher.py:finish():403] scan save: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json wandb-summary.json
+2025-05-11 21:41:41,025 INFO    SenderThread:720 [sender.py:transition_state():602] send defer: 10
+2025-05-11 21:41:41,026 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: defer
+2025-05-11 21:41:41,026 INFO    HandlerThread:720 [handler.py:handle_request_defer():170] handle defer: 10
+2025-05-11 21:41:41,027 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: defer
+2025-05-11 21:41:41,027 INFO    SenderThread:720 [sender.py:send_request_defer():598] handle sender defer: 10
+2025-05-11 21:41:41,027 INFO    SenderThread:720 [file_pusher.py:finish():159] shutting down file pusher
+2025-05-11 21:41:43,040 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:41:43,407 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: keepalive
+2025-05-11 21:41:48,092 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:41:48,461 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: keepalive
+2025-05-11 21:41:53,128 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: status_report
+2025-05-11 21:41:53,498 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: keepalive
+2025-05-11 21:41:55,424 INFO    wandb-upload_2:720 [upload_job.py:push():133] Uploaded file C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\requirements.txt
+2025-05-11 21:41:55,428 INFO    wandb-upload_3:720 [upload_job.py:push():133] Uploaded file C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\wandb-summary.json
+2025-05-11 21:41:55,580 INFO    wandb-upload_1:720 [upload_job.py:push():133] Uploaded file C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\output.log
+2025-05-11 21:41:55,740 INFO    wandb-upload_0:720 [upload_job.py:push():133] Uploaded file C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\files\config.yaml
+2025-05-11 21:41:55,945 INFO    Thread-15 (_thread_body):720 [sender.py:transition_state():602] send defer: 11
+2025-05-11 21:41:55,946 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: defer
+2025-05-11 21:41:55,947 INFO    HandlerThread:720 [handler.py:handle_request_defer():170] handle defer: 11
+2025-05-11 21:41:55,959 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: defer
+2025-05-11 21:41:55,959 INFO    SenderThread:720 [sender.py:send_request_defer():598] handle sender defer: 11
+2025-05-11 21:41:55,960 INFO    SenderThread:720 [file_pusher.py:join():164] waiting for file pusher
+2025-05-11 21:41:55,960 INFO    SenderThread:720 [sender.py:transition_state():602] send defer: 12
+2025-05-11 21:41:55,961 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: defer
+2025-05-11 21:41:55,961 INFO    HandlerThread:720 [handler.py:handle_request_defer():170] handle defer: 12
+2025-05-11 21:41:55,963 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: defer
+2025-05-11 21:41:55,963 INFO    SenderThread:720 [sender.py:send_request_defer():598] handle sender defer: 12
+2025-05-11 21:41:56,823 INFO    SenderThread:720 [sender.py:transition_state():602] send defer: 13
+2025-05-11 21:41:56,824 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: defer
+2025-05-11 21:41:56,824 INFO    HandlerThread:720 [handler.py:handle_request_defer():170] handle defer: 13
+2025-05-11 21:41:56,825 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: defer
+2025-05-11 21:41:56,825 INFO    SenderThread:720 [sender.py:send_request_defer():598] handle sender defer: 13
+2025-05-11 21:41:56,826 INFO    SenderThread:720 [sender.py:transition_state():602] send defer: 14
+2025-05-11 21:41:56,827 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: defer
+2025-05-11 21:41:56,828 INFO    HandlerThread:720 [handler.py:handle_request_defer():170] handle defer: 14
+2025-05-11 21:41:56,828 DEBUG   SenderThread:720 [sender.py:send():369] send: final
+2025-05-11 21:41:56,829 DEBUG   SenderThread:720 [sender.py:send():369] send: footer
+2025-05-11 21:41:56,830 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: defer
+2025-05-11 21:41:56,830 INFO    SenderThread:720 [sender.py:send_request_defer():598] handle sender defer: 14
+2025-05-11 21:41:56,833 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: poll_exit
+2025-05-11 21:41:56,833 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: server_info
+2025-05-11 21:41:56,835 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: poll_exit
+2025-05-11 21:41:56,835 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: get_summary
+2025-05-11 21:41:56,836 DEBUG   SenderThread:720 [sender.py:send_request():396] send_request: server_info
+2025-05-11 21:41:56,837 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: sampled_history
+2025-05-11 21:41:57,596 DEBUG   HandlerThread:720 [handler.py:handle_request():144] handle_request: shutdown
+2025-05-11 21:41:57,609 INFO    HandlerThread:720 [handler.py:finish():854] shutting down handler
+2025-05-11 21:41:57,843 INFO    WriterThread:720 [datastore.py:close():298] close: C:\Users\Akorede Balogun\Voice Auth System\wandb\run-20250511_210600-bpgzj5d8\run-bpgzj5d8.wandb
+2025-05-11 21:41:58,434 INFO    SenderThread:720 [sender.py:finish():1526] shutting down sender
+2025-05-11 21:41:58,434 INFO    SenderThread:720 [file_pusher.py:finish():159] shutting down file pusher
+2025-05-11 21:41:58,435 INFO    SenderThread:720 [file_pusher.py:join():164] waiting for file pusher
