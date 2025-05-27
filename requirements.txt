@@ -1,0 +1,11 @@
+# Core voice recognition & audio processing
+SpeechRecognition==3.10.0  # Main speech-to-text library
+PyAudio==0.2.13            # Audio input (may need manual install on Linux/macOS)
+soundfile==0.12.1          # For reading/writing audio files
+numpy==1.25.0              # Required for audio processing
+resemblyzer==0.1.4        # Voice embeddings (if doing speaker recognition)
+openai==0.27.8             # (Optional) If using OpenAI Whisper/API
+python-dotenv==1.0.0       # (Optional) For managing API keys
+pyttsx3==2.90              # Text-to-speech conversion
+pywhatkit==5.4.2            # For sending WhatsApp 
+sounddevice==0.4.6          # For real-time audio playback
