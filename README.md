@@ -83,8 +83,6 @@ SpeechAuth/
   pip install <path-to-wheel-file>
   ```
 
-- **eSpeak Not Found**: If using eSpeak, ensure it is installed and added to your system PATH.
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
