@@ -20,7 +20,7 @@ def enroll_user(phrase_file, embed_file):
     print("Voiceprint saved to {embed_file}")
 
 def authenticate_user(test_file, enroll_embed,
-                      threshold=0.75, duration=5):
+                      threshold=0.82, duration=5):
     print("Please speak your passphrase to authenticate…")
     rec = sd.rec(int(16000 * duration), samplerate=16000, channels=1)
     sd.wait()

@@ -49,7 +49,7 @@ def signup():
     return
 
 def login(username):
-    protected = ["transfer", "transaction", "balance", "pay", "open account"]
+    protected = ["transfer", "send","transaction", "balance", "pay", "open account"]
     while True:
         command = take_command()
         print("Heard:", command)
@@ -64,10 +64,16 @@ def login(username):
                 talk("Authentication failed. Please try again or use your password.")
                 return False    
             
-        if "transfer" in command:
-            talk("Processing your transfer command.")
+        if "transfer" in command or "send" in command:
+            print("Processing your funds transfer.")
+            talk("Processing your funds transfer.")
             # call your banking-API here…
             break
+
+        else:
+            print("Sorry, I didn't understand the protected action.")
+            talk("Sorry, I didn't understand the protected action.")
+            continue
 
 
 
