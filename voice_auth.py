@@ -3,15 +3,17 @@ import soundfile as sf
 import sounddevice as sd
 import numpy as np
 from resemblyzer import VoiceEncoder, preprocess_wav
+from utils import talk
 
 encoder = VoiceEncoder()
 
 def record_phrase(filename, duration=5):
-    print("Please speak your passphrase for enrollment…")
+    #print("Please speak your passphrase for enrollment…")
+    
     rec = sd.rec(int(16000 * duration), samplerate=16000, channels=1)
     sd.wait()
     sf.write(filename, rec, 16000)
-    print("Enrollment saved to {filename}")
+    print(f"Enrollment saved to {filename}")
 
 def enroll_user(phrase_file, embed_file):
     wav = preprocess_wav(phrase_file)
@@ -22,6 +24,7 @@ def enroll_user(phrase_file, embed_file):
 def authenticate_user(test_file, enroll_embed,
                       threshold=0.82, duration=5):
     print("Please speak your passphrase to authenticate…")
+    talk("Please speak your passphrase to authenticate…")
     rec = sd.rec(int(16000 * duration), samplerate=16000, channels=1)
     sd.wait()
     sf.write(test_file, rec, 16000)

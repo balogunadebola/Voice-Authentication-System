@@ -4,19 +4,14 @@ import pyttsx3
 import pywhatkit
 import datetime
 import os
+from utils import talk
 
 # … your other imports …
 from voice_auth import authenticate_user, record_phrase, enroll_user
 
 listener = sr.Recognizer()
-engine = pyttsx3.init()
-voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[1].id)
-# …
 
-def talk(text):
-    engine.say(text)
-    engine.runAndWait()
+# …
 
 def take_command():
     try:
@@ -41,6 +36,7 @@ def signup():
     voiceprint_file = f"voiceprints/{username}_voiceprint.npy"
 
     print("Please speak your passphrase for enrollment…")
+    talk("Please speak your passphrase for enrollment…")
     record_phrase(phrase_file) # save the recording to a specific file
 
     enroll_user(phrase_file, voiceprint_file)

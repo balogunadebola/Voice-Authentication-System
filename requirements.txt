@@ -9,3 +9,4 @@ python-dotenv==1.0.0       # (Optional) For managing API keys
 pyttsx3==2.90              # Text-to-speech conversion
 pywhatkit==5.4.2            # For sending WhatsApp 
 sounddevice==0.4.6          # For real-time audio playback
+webrtcvad==2.0.10         # Voice activity detection
