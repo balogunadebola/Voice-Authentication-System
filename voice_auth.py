@@ -19,7 +19,7 @@ def enroll_user(phrase_file, embed_file):
     wav = preprocess_wav(phrase_file)
     emb = encoder.embed_utterance(wav)
     np.save(embed_file, emb)
-    print("Voiceprint saved to {embed_file}")
+    print(f"Voiceprint saved to {embed_file}")
 
 def authenticate_user(test_file, enroll_embed,
                       threshold=0.82, duration=5):
