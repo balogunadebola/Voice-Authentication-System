@@ -42,7 +42,7 @@ The project requires the following Python libraries:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone <balogunadebola/Voice-Authentication-System>
    cd SpeechAuth
    ```
 
