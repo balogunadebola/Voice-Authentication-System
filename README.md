@@ -10,6 +10,19 @@ SpeechAuth is a voice-based authentication system that uses speech recognition a
 - **Text-to-Speech Responses**: Provides audio feedback using a text-to-speech engine.
 - **Protected Commands**: Ensures sensitive operations like "transfer" or "transaction" are voice-authenticated.
 
+## Components
+
+### Main Components
+- `main.py`: The entry point of the application that handles user interaction flow
+- `voice_auth.py`: Contains the core voice authentication logic including enrollment and verification
+- `utils.py`: Handles text-to-speech functionality using pyttsx3, providing audio feedback to users
+
+### Data Storage
+- The `voiceprints/` directory stores:
+  - Voice enrollment recordings (`*_enroll.wav`)
+  - Voice test recordings (`*_test.wav`)
+  - Generated voice embeddings (`*_voiceprint.npy`)
+
 ## Requirements
 
 The project requires the following Python libraries:
@@ -65,9 +78,13 @@ The project requires the following Python libraries:
 SpeechAuth/
 ├── main.py                # Main entry point of the application
 ├── requirements.txt       # List of dependencies
-├── voice_auth.py          # Voice authentication logic
-├── voiceprints/           # Directory for storing voiceprints and audio files
-└── README.md              # Project documentation
+├── utils.py              # Utility functions for text-to-speech
+├── voice_auth.py         # Voice authentication logic
+├── voiceprints/          # Directory for storing voiceprints and audio files
+│   ├── *_enroll.wav     # Voice enrollment recordings
+│   ├── *_test.wav       # Voice test recordings
+│   └── *_voiceprint.npy # Generated voice embeddings
+└── README.md             # Project documentation
 ```
 
 ## Notes
@@ -75,6 +92,10 @@ SpeechAuth/
 - Ensure your microphone is properly configured and accessible.
 - For sensitive operations, the system requires voice authentication.
 - The project uses `pyttsx3` for text-to-speech, which defaults to the Windows SAPI5 engine.
+- Voice recordings and embeddings are stored in the `voiceprints` directory with the following naming convention:
+  - `{username}_enroll.wav`: Initial voice enrollment recording
+  - `{username}_test.wav`: Voice recording for authentication attempts
+  - `{username}_voiceprint.npy`: Generated voice embedding used for authentication
 
 ## Troubleshooting
 
